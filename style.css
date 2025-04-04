@@ -188,16 +188,42 @@ section.sobre .flex{
 }
 
 @media (max-width: 768px) {
-    .menu {
+    header > .interface {
       flex-direction: column;
+      gap: 20px;
     }
   
-    .conteudo {
-      padding: 10px;
-      font-size: 16px;
+    header nav ul li {
+      display: block;
+      padding: 10px 0;
+    }
+  
+    section.topo-do-site .flex {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .topo-do-site h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .topo-do-site .txt-topo-site p {
+      text-align: center;
+      margin: 20px 0;
+    }
+  
+    .btn-contato {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .img-redonda {
+      width: 150px;
+      height: 150px;
     }
   }
-  
+                                                                                                                                                                                              
 
 
 
