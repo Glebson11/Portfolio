@@ -223,6 +223,38 @@ section.sobre .flex{
       height: 150px;
     }
   }
+
+  @media (max-width: 768px) {
+    section.especialidades .flex {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .especialidades-box {
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  
+    .especialidades-box i {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+  
+    .especialidades-box p {
+      word-break: break-word; 
+    }
+  
+    .titulo {
+      font-size: 26px;
+      text-align: center;
+    }
+  }
+
                                                                                                                                                                                               
 
 
