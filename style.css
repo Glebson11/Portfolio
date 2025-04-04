@@ -224,11 +224,11 @@ section.sobre .flex{
     }
   }
 
-  @media (max-width: 768px) {
     section.especialidades .flex {
       flex-direction: column;
       align-items: center;
       gap: 20px;
+      max-width: 768px
     }
   
     .especialidades-box {
@@ -253,7 +253,7 @@ section.sobre .flex{
       font-size: 26px;
       text-align: center;
     }
-  }
+  
 
                                                                                                                                                                                               
 
