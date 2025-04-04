@@ -225,41 +225,18 @@ section.sobre .flex{
   }
 
   @media (max-width: 768px) {
-    section.especialidades .flex {
+    .flex {
       flex-direction: column;
       align-items: center;
-      gap: 20px;
     }
   
     .especialidades-box {
-      width: 100%;
-      max-width: 90%;
-      text-align: center;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-  
-    .especialidades-box i {
-      font-size: 36px;
-      margin-bottom: 10px;
-      display: block;
-    }
-  
-    .especialidades-box h3 {
-      font-size: 20px;
-      margin-bottom: 8px;
-    }
-  
-    .especialidades-box p {
-      font-size: 16px;
-      word-break: break-word; 
+      width: 90%;
     }
   
     .titulo {
-      font-size: 28px;
       text-align: center;
-      margin-bottom: 30px;
+      font-size: 28px;
     }
   }
   
